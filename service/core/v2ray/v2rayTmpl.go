@@ -1142,7 +1142,7 @@ func (t *Template) setGroupRouting(serverData *ServerData) (err error) {
 			continue
 		}
 
-		strategy := "leastPing"
+		strategy := "random"
 		interval := 10 * time.Second
 		var selector []string
 
